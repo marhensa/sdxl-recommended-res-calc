@@ -4,7 +4,7 @@ Here's a simple script to calculate the recommended initial latent size for SDXL
 According to many references, it's advised to avoid arbitrary resolutions and stick to this initial resolution, as SDXL was trained using this specific resolution.
 
 Windows:
-1. Download / zip download this repo, make sure .Py and .Bat file on same folder.
+1. Download (Click green button Code > Download ZIP) from this repo, make sure .Py and .Bat file on same folder.
 2. Double click .Bat file!
 3. Input your desired Final Resolution
 4. You'll get recommended SDXL Initial Image Size, and its upscale factor to reach the Final Resolution.
