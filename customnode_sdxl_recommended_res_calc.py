@@ -1,3 +1,8 @@
+# As Per CapsAdmin (https://github.com/CapsAdmin) suggest, it could be a ComfyUI Custom Node if modified.
+# https://github.com/marhensa/sdxl-recommended-res-calc/issues/1
+# This is his/her edit add suggestion
+# Many thanks!
+
 # Accepted aspect ratios and corresponding XSIZE, YSIZE, and NUMRATIO
 accepted_ratios_horizontal = {
     "4:3": (1152, 896, 1.29),
