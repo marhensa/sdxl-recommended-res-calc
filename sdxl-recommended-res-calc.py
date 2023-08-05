@@ -70,23 +70,29 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
         accepted_XSIZE, accepted_YSIZE, _ = accepted_ratios_square[closest_ratio]
     print("\nRecommended initial SDXL size for", closest_ratio, ":")
     print(colorGREEN + "SDXL Width  :", accepted_XSIZE, colorRESET)
-    print(colorGREEN + "SDXL Heigth :", accepted_YSIZE, colorRESET)
+    print(colorGREEN + "SDXL  :", accepted_YSIZE, colorRESET)
     
-    # Compare accepted XSIZE and YSIZE to determine which one is more close to the desired size
-    if abs(accepted_XSIZE - desiredXSIZE) < abs(accepted_YSIZE - desiredYSIZE):
+    # Calculate the upscale factor for width and height
+    upscale_factor_width = desiredXSIZE / accepted_XSIZE
+    upscale_factor_height = desiredYSIZE / accepted_YSIZE
+
+    # Compare the upscale factors for width and height and select the larger one
+    if upscale_factor_width >= upscale_factor_height:
         more_less = "SDXL Width"
         accepted_size = accepted_XSIZE
         desired_size = desiredXSIZE
+        excesstocrop = "Final Height"
+        scaling_factor = round(upscale_factor_width, 3)
     else:
         more_less = "SDXL Height"
         accepted_size = accepted_YSIZE
         desired_size = desiredYSIZE
+        excesstocrop = "Final Width"
+        scaling_factor = round(upscale_factor_height, 3)
     
-    # Calculate the scaling factor and round to 3 digits
-    scaling_factor = round(desired_size / accepted_size, 3)
-
     print("\nScaling factor to reach", desiredXSIZE, "x", desiredYSIZE)
-    print("calculated from the shortest, that is (", more_less, ")")
+    print("calculated from (", more_less, ") avoid shortage,")
+    print("you can crop (", excesstocrop, ") excess later")
     print(colorGREEN + "Scale factor :", scaling_factor, colorRESET)
 
     # Calculate the downscale factor from Upscale 4x Node and round to 3 digits
