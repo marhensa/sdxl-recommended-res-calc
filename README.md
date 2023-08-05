@@ -1,4 +1,4 @@
-# sdxl-recommended-res-calc
+![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/a82308ee-d648-4ffd-acb9-7c27bc06307d)# sdxl-recommended-res-calc
 A simple script (also a ComfyUI custom node) to calculate the recommended initial latent size for SDXL image generation and its Upscale Factor based on the desired Final Resolution output.
 
 According to many references, it's advised to avoid arbitrary resolutions and stick to this initial resolution, as SDXL was trained using this specific resolution.
@@ -11,13 +11,14 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 
 **In ComfyUI**
 
-![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/dc295c55-8ad6-4fb3-890f-1831d82c83d6)
+![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/c854e461-84d0-421c-8a41-7309d178ea2d)
 
-To install it as ComfyUI custom node installation :
+**To install it as ComfyUI custom node installation** :
 1. Go to this folder /ComfyUI/custom_nodes
 2. Open command prompt, type
 3. Git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 4. Restart ComfyUI, now it's located in "utils" node section.
+5. To use: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION
 
 
 As standalone (Not Using ComfyUI):
