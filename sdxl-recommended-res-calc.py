@@ -91,7 +91,7 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
         scaling_factor = round(upscale_factor_height, 3)
     
     print("\nScaling factor to reach", desiredXSIZE, "x", desiredYSIZE)
-    print("calculated from (", more_less, ") avoid shortage,")
+    print("calculated from (", more_less, ") to avoid shortage,")
     print("you can crop (", excesstocrop, ") excess later")
     print(colorGREEN + "Scale factor :", scaling_factor, colorRESET)
 
