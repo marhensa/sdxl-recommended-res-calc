@@ -1,7 +1,11 @@
 # sdxl-recommended-res-calc
-Here's a simple script to calculate the recommended initial latent size for SDXL image generation and its Upscale Factor based on the desired Final Resolution output.
+A simple script (also a ComfyUI custom node) to calculate the recommended initial latent size for SDXL image generation and its Upscale Factor based on the desired Final Resolution output.
 
 According to many references, it's advised to avoid arbitrary resolutions and stick to this initial resolution, as SDXL was trained using this specific resolution.
+
+tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you :
+1. what resolution you should use according to SDXL suggestion as initial input resolution
+2. how much upscale it needs to get that final resolution (both normal upscaler or upscaler value that have been 4x scaled by upscale model)
 
 [CapsAdmin](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1#issue-1837648293) pointed [here](https://www.reddit.com/r/StableDiffusion/comments/15iou69/comment/juvgrqn/?utm_source=reddit&utm_medium=web2x&context=3), that modifying this Python script could be a custom node by itself in ComfyUI. Here's the edit from CapsAdmin that loads on ComfyUI, and its implementation
 
