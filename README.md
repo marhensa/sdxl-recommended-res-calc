@@ -16,7 +16,7 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 **To install it as ComfyUI custom node installation** :
 1. Go to this folder /ComfyUI/custom_nodes
 2. Open command prompt, type
-3. Git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
+3. git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 4. Restart ComfyUI, now it's located in "utils" node section.
 5. To use: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION
 
