@@ -11,6 +11,6 @@ Windows:
 
 If you are on Linux, use .Sh file instead, and before running it make sure to chmod+x it first.
 
-![Screenshot](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/190bf527-c6c5-4f3a-9b4d-d0beb7844479)
+![Screenshot1x](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/230d3fb6-378d-49cb-ba84-b3ac7f10ae68)
 
-![Screenshot2](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/8d52064e-be2a-467d-ae16-dbeca400a07c)
+![Screenshot2x](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/3b3c1683-76a1-4142-a3b7-42b5b55a356a)
