@@ -7,7 +7,7 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 1. what resolution you should use according to SDXL suggestion as initial input resolution
 2. how much upscale it needs to get that final resolution (both normal upscaler or upscaler value that have been 4x scaled by upscale model)
 
-[CapsAdmin](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1#issue-1837648293) pointed [here](https://www.reddit.com/r/StableDiffusion/comments/15iou69/comment/juvgrqn/?utm_source=reddit&utm_medium=web2x&context=3), that modifying this Python script could be a custom node by itself in ComfyUI. Here's the edit from CapsAdmin that loads on ComfyUI, and its implementation
+[CapsAdmin](https://github.com/CapsAdmin) pointed [here](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1), that modifying this Python script could be a custom node by itself in ComfyUI. Here's the edit from CapsAdmin that loads on ComfyUI, and its implementation
 
 **In ComfyUI**
 
