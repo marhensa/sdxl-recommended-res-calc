@@ -70,7 +70,7 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
         accepted_XSIZE, accepted_YSIZE, _ = accepted_ratios_square[closest_ratio]
     print("\nRecommended initial SDXL size for", closest_ratio, ":")
     print(colorGREEN + "SDXL Width  :", accepted_XSIZE, colorRESET)
-    print(colorGREEN + "SDXL  :", accepted_YSIZE, colorRESET)
+    print(colorGREEN + "SDXL Height :", accepted_YSIZE, colorRESET)
     
     # Calculate the upscale factor for width and height
     upscale_factor_width = desiredXSIZE / accepted_XSIZE
