@@ -20,6 +20,7 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 4. Restart ComfyUI, now it's located in "utils" node section.
 5. To use: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION
 
+Example Workflow of usage in ComfyUI : [JSON](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.json) / [PNG](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.png)
 
 As standalone (Not Using ComfyUI):
 1. Download (Click green button Code > Download ZIP) from repo. Or direct link.
