@@ -312,42 +312,6 @@
       "bgcolor": "#593930"
     },
     {
-      "id": 53,
-      "type": "VAELoader",
-      "pos": [
-        -1908.3545489124049,
-        -1282.3021451752722
-      ],
-      "size": {
-        "0": 277.7905578613281,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": false,
-        "pinned": false
-      },
-      "order": 9,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "Load VAE (From Other File)",
-      "properties": {
-        "Node name for S&R": "VAELoader"
-      },
-      "widgets_values": [
-        "sdxl_fp16_vae.safetensors"
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
       "id": 4,
       "type": "CheckpointLoaderSimple",
       "pos": [
@@ -2490,10 +2454,10 @@
         -329.52779922340403,
         271.06763695562654
       ],
-      "size": [
-        299.7813415527344,
-        570.5645751953125
-      ],
+      "size": {
+        "0": 299.7813415527344,
+        "1": 570.5645751953125
+      },
       "flags": {
         "pinned": false
       },
@@ -2608,10 +2572,10 @@
         1550.3667678897857,
         -972.3633150618676
       ],
-      "size": [
-        344.3999938964844,
-        518
-      ],
+      "size": {
+        "0": 344.3999938964844,
+        "1": 518
+      },
       "flags": {},
       "order": 54,
       "mode": 0,
@@ -2714,6 +2678,42 @@
       ],
       "color": "#323",
       "bgcolor": "#535"
+    },
+    {
+      "id": 53,
+      "type": "VAELoader",
+      "pos": [
+        -1908.3545489124049,
+        -1282.3021451752722
+      ],
+      "size": {
+        "0": 277.7905578613281,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": false,
+        "pinned": false
+      },
+      "order": 9,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "Load VAE (From Other File)",
+      "properties": {
+        "Node name for S&R": "VAELoader"
+      },
+      "widgets_values": [
+        "sdxl_vae.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
     }
   ],
   "links": [
