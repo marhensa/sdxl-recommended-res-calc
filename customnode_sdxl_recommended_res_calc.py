@@ -35,13 +35,13 @@ class RecommendedResCalc:
                     "default": 1024, 
                     "min": 0, #Minimum value
                     "max": 4096, #Maximum value
-                    "step": 64 #Slider's step
+                    "step": 1 #Slider's step
                 }),
                 "desiredYSIZE": ("INT", {
                     "default": 1024, 
                     "min": 0, #Minimum value
                     "max": 4096, #Maximum value
-                    "step": 64 #Slider's step
+                    "step": 1 #Slider's step
                 }),
             },
         }
