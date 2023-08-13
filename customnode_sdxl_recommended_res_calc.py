@@ -85,7 +85,7 @@ class RecommendedResCalc:
         }
 
     RETURN_TYPES = ("INT","INT", "FLOAT", "FLOAT",)
-    RETURN_NAMES = ("recom width","recom height","upscale factor", "downscale factor (from 4x upscaler)",)
+    RETURN_NAMES = ("recom width","recom height","upscale factor", "reverse upscale (for 4x-upscaler)",)
     FUNCTION = "calc"
     CATEGORY = "utils"
 
