@@ -61,6 +61,7 @@ accepted_ratios_square = {
     "1:1": (1024, 1024, 1)
 }
 
+
 class RecommendedResCalc:
     def __init__(self):
         pass
