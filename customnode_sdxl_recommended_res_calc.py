@@ -72,14 +72,14 @@ class RecommendedResCalc:
                 "desiredXSIZE": ("INT", {
                     "default": 1024, 
                     "min": 0, #Minimum value
-                    "max": 4096, #Maximum value
-                    "step": 1 #Slider's step
+                    "max": 8192, #Maximum value
+                    "step": 2 #Slider's step
                 }),
                 "desiredYSIZE": ("INT", {
                     "default": 1024, 
                     "min": 0, #Minimum value
-                    "max": 4096, #Maximum value
-                    "step": 1 #Slider's step
+                    "max": 8192, #Maximum value
+                    "step": 2 #Slider's step
                 }),
             },
         }
