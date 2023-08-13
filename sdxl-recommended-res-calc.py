@@ -1,3 +1,5 @@
+import os
+
 def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Accepted aspect ratios and corresponding XSIZE, YSIZE, and NUMRATIO
     
@@ -142,9 +144,14 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     print("")
     print("=====")
 
+# Function to clear the terminal screen
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
 # Function to get user input and ask for another set of sizes
 def get_user_input():
     while True:
+        clear_screen()  # Clear the terminal screen
         desiredXSIZE = int(input("\nEnter the Desired Final Width (X Size): "))
         desiredYSIZE = int(input("Enter the Desired Final Height (Y Size): "))
 
