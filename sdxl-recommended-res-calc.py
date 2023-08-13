@@ -88,6 +88,7 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Display the accepted aspect ratio
     print("=====")
     print("")
+    print("Resolutions and ratios are based from SDXL paper arxiv.org/pdf/2307.01952.pdf Page-17")
     print("")
     print("Nearest recommended ratio from", colorGREEN + str(desiredXSIZE) + colorRESET, "x", colorGREEN + str(desiredYSIZE) + colorRESET, ":")
     if closest_ratio in accepted_ratios_horizontal:
