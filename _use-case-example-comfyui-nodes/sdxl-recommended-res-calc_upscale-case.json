@@ -16,7 +16,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1295,7 +1295,7 @@
         "1": 102.43721771240234
       },
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "title": "To ENABLE LoRA",
       "properties": {
@@ -1379,7 +1379,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "outputs": [
         {
@@ -1452,7 +1452,7 @@
         "1": 102
       },
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -1620,7 +1620,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "outputs": [
         {
@@ -1937,7 +1937,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "outputs": [
         {
@@ -2335,7 +2335,7 @@
         "collapsed": false,
         "pinned": false
       },
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "outputs": [
         {
@@ -2368,7 +2368,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 30,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -2475,12 +2475,12 @@
         -3440.258028109375,
         -62.715471015625
       ],
-      "size": [
-        225.30343826562512,
-        96.62141583984375
-      ],
+      "size": {
+        "0": 225.30343627929688,
+        "1": 96.62141418457031
+      },
       "flags": {},
-      "order": 29,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -2538,68 +2538,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 162,
-      "type": "RecommendedResCalc",
-      "pos": [
-        -3824,
-        -272
-      ],
-      "size": [
-        287.20001220703125,
-        142
-      ],
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "recom width",
-          "type": "INT",
-          "links": [
-            344
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "recom height",
-          "type": "INT",
-          "links": [
-            345
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "upscale factor",
-          "type": "FLOAT",
-          "links": [
-            346
-          ],
-          "shape": 3,
-          "slot_index": 2
-        },
-        {
-          "name": "reverse upscale (for 4x-upscaler)",
-          "type": "FLOAT",
-          "links": [
-            347
-          ],
-          "shape": 3,
-          "slot_index": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "RecommendedResCalc"
-      },
-      "widgets_values": [
-        1024,
-        1024
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
       "id": 148,
       "type": "Reroute",
       "pos": [
@@ -2611,7 +2549,7 @@
         26
       ],
       "flags": {},
-      "order": 32,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -2642,12 +2580,12 @@
         -2551,
         460
       ],
-      "size": [
-        287.20001220703125,
-        142
-      ],
+      "size": {
+        "0": 287.20001220703125,
+        "1": 142
+      },
       "flags": {},
-      "order": 23,
+      "order": 21,
       "mode": 0,
       "outputs": [
         {
@@ -2702,12 +2640,12 @@
         -2280,
         731
       ],
-      "size": [
-        383.7281249999992,
-        255.6830169677728
-      ],
+      "size": {
+        "0": 383.7281188964844,
+        "1": 255.68301391601562
+      },
       "flags": {},
-      "order": 15,
+      "order": 22,
       "mode": 0,
       "title": "Note - Empty Latent Image",
       "properties": {
@@ -2718,6 +2656,68 @@
       ],
       "color": "#323",
       "bgcolor": "#535"
+    },
+    {
+      "id": 162,
+      "type": "RecommendedResCalc",
+      "pos": [
+        -3824,
+        -272
+      ],
+      "size": {
+        "0": 287.20001220703125,
+        "1": 142
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "recom width",
+          "type": "INT",
+          "links": [
+            344
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "recom height",
+          "type": "INT",
+          "links": [
+            345
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "upscale factor",
+          "type": "FLOAT",
+          "links": [
+            346
+          ],
+          "shape": 3,
+          "slot_index": 2
+        },
+        {
+          "name": "reverse upscale (for 4x-upscaler)",
+          "type": "FLOAT",
+          "links": [
+            347
+          ],
+          "shape": 3,
+          "slot_index": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RecommendedResCalc"
+      },
+      "widgets_values": [
+        2560,
+        1440
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     }
   ],
   "links": [
