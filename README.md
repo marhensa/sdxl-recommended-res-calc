@@ -11,7 +11,7 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 
 **In ComfyUI**
 
-![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/26936a5d-a4e4-4f9e-8b67-fa34ca4231e8)
+![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/4f1f0768-57cf-4181-8926-c6bd83276a8c)
 
 **To install it as ComfyUI custom node installation** :
 1. Go to this folder /ComfyUI/custom_nodes
