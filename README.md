@@ -37,3 +37,10 @@ As standalone (Not Using ComfyUI):
 ![Screenshot2xx](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/f229e761-ccaa-45ab-aa45-3e004fc2631e)
 
 ![Screenshot3xx](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/605ec1c0-1ef4-41a3-bb8e-3da39495a0de)
+
+
+**References**
+
+https://arxiv.org/abs/2307.01952 | https://arxiv.org/pdf/2307.01952.pdf | Page 17 
+
+![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/b9526007-2509-4f9f-966c-c8b3a57c6fc9)
