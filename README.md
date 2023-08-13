@@ -11,14 +11,14 @@ tl;dr : Basicaly, you are typing your FINAL target resolution, it will gives you
 
 **In ComfyUI**
 
-![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/c854e461-84d0-421c-8a41-7309d178ea2d)
+![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/26936a5d-a4e4-4f9e-8b67-fa34ca4231e8)
 
 **To install it as ComfyUI custom node installation** :
 1. Go to this folder /ComfyUI/custom_nodes
 2. Open command prompt, type
 3. git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 4. Restart ComfyUI, now it's located in "utils" node section.
-5. To use: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION
+5. To use: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION, Upscale Factor OR Reverse Upscale Factor is used as example above
 
 Example Workflow of usage in ComfyUI : [JSON](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.json) / [PNG](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.png)
 
