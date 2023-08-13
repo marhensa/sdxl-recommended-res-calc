@@ -139,8 +139,8 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Calculate the downscale factor from Upscale 4x Node and round to 3 digits
     downscalefrom4x_factor = round(scaling_factor / 4, 3)
     
-    print("\nOr downscale factor after using 4x-Upscaler Node = (", scaling_factor, "/ 4 )")
-    print(colorGREEN + "Downscale AFTER 4x-Upscaler Node usage :", downscalefrom4x_factor, colorRESET)
+    print("\nOr Reverse Upscale Factor after using 4x-Upscaler Node = (", scaling_factor, "/ 4 )")
+    print(colorGREEN + "Reverse Upscale Factor for 4x-Upscaler :", downscalefrom4x_factor, colorRESET)
     print("")
     print("=====")
 
