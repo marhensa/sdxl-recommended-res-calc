@@ -8,7 +8,7 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Page 17 "We use the following image resolutions for mixed-aspect ratio finetuning as described in Section 2.3"
     
 # Horizontal aspect ratio
-accepted_ratios_horizontal = {
+    accepted_ratios_horizontal = {
     "4:1": (2048, 512, 4.00),
     "31:8": (1984, 512, 3.88),
     "15:4": (1920, 512, 3.75),
@@ -29,10 +29,10 @@ accepted_ratios_horizontal = {
     "50:41": (1088, 896, 1.21),
     "25:22": (1088, 960, 1.13),
     "50:47": (1024, 960, 1.07)
-}
+    }
 
 # Vertical aspect ratio
-accepted_ratios_vertical = {
+    accepted_ratios_vertical = {
     "47:50": (960, 1024, 0.94),
     "22:25": (960, 1088, 0.88),
     "41:50": (896, 1088, 0.82),
@@ -56,9 +56,9 @@ accepted_ratios_vertical = {
     }
     
 # Square aspect ratio
-accepted_ratios_square = {
+    accepted_ratios_square = {
     "1:1": (1024, 1024, 1)
-}
+    }
 
     
     # Calculate the aspect ratio of the desired size
