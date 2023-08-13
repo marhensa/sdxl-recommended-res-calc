@@ -88,7 +88,8 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Display the accepted aspect ratio
     print("=====")
     print("")
-    print("Resolutions and ratios are based from SDXL paper arxiv.org/pdf/2307.01952.pdf Page-17")
+    print("Resolutions and ratios are based from SDXL paper")
+    print("https://arxiv.org/pdf/2307.01952.pdf Page-17")
     print("")
     print("Nearest recommended ratio from", colorGREEN + str(desiredXSIZE) + colorRESET, "x", colorGREEN + str(desiredYSIZE) + colorRESET, ":")
     if closest_ratio in accepted_ratios_horizontal:
@@ -138,7 +139,6 @@ def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     
     print("\nOr downscale factor after using 4x-Upscaler Node = (", scaling_factor, "/ 4 )")
     print(colorGREEN + "Downscale AFTER 4x-Upscaler Node usage :", downscalefrom4x_factor, colorRESET)
-    print("")
     print("")
     print("=====")
 
