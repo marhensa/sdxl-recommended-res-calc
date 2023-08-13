@@ -59,6 +59,7 @@ accepted_ratios_vertical = {
 accepted_ratios_square = {
     "1:1": (1024, 1024, 1)
 }
+
     
     # Calculate the aspect ratio of the desired size
     desired_ratio = desiredXSIZE / desiredYSIZE
