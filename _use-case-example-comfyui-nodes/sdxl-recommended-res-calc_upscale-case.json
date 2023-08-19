@@ -1,6 +1,6 @@
 {
-  "last_node_id": 163,
-  "last_link_id": 350,
+  "last_node_id": 166,
+  "last_link_id": 359,
   "nodes": [
     {
       "id": 5,
@@ -16,13 +16,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 29,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
           "name": "width",
           "type": "INT",
-          "link": 348,
+          "link": 357,
           "widget": {
             "name": "width",
             "config": [
@@ -39,7 +39,7 @@
         {
           "name": "height",
           "type": "INT",
-          "link": 349,
+          "link": 358,
           "widget": {
             "name": "height",
             "config": [
@@ -80,8 +80,8 @@
       "id": 14,
       "type": "PrimitiveNode",
       "pos": [
-        -2021.0152364155056,
-        71.46175840122258
+        -1974.6152852436305,
+        75.06177671176944
       ],
       "size": {
         "0": 348.3596496582031,
@@ -432,7 +432,7 @@
         26
       ],
       "flags": {},
-      "order": 34,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -544,7 +544,7 @@
         26
       ],
       "flags": {},
-      "order": 45,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -584,7 +584,7 @@
         26
       ],
       "flags": {},
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -738,7 +738,7 @@
         26
       ],
       "flags": {},
-      "order": 49,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -780,7 +780,7 @@
         "collapsed": false,
         "pinned": false
       },
-      "order": 48,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -826,7 +826,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 56,
+      "order": 57,
       "mode": 0,
       "inputs": [
         {
@@ -873,7 +873,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 57,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -921,7 +921,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -1105,7 +1105,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 55,
+      "order": 56,
       "mode": 0,
       "inputs": [
         {
@@ -1146,7 +1146,7 @@
         26
       ],
       "flags": {},
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1182,7 +1182,7 @@
         26
       ],
       "flags": {},
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1218,7 +1218,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 53,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -1259,7 +1259,7 @@
         26
       ],
       "flags": {},
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1319,7 +1319,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 52,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1369,8 +1369,8 @@
       "id": 13,
       "type": "PrimitiveNode",
       "pos": [
-        -2020,
-        -210
+        -1973.600048828125,
+        -206.39998168945314
       ],
       "size": {
         "0": 348.41961669921875,
@@ -1424,7 +1424,7 @@
         "collapsed": false,
         "pinned": false
       },
-      "order": 58,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -1496,7 +1496,7 @@
         26
       ],
       "flags": {},
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1532,7 +1532,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 51,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -1564,54 +1564,11 @@
       }
     },
     {
-      "id": 155,
-      "type": "ImageUpscaleWithModel",
-      "pos": [
-        -2894.258028109375,
-        -86.71547101562503
-      ],
-      "size": {
-        "0": 241.79998779296875,
-        "1": 46
-      },
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "upscale_model",
-          "type": "UPSCALE_MODEL",
-          "link": 308
-        },
-        {
-          "name": "image",
-          "type": "IMAGE",
-          "link": null
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            309
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "ImageUpscaleWithModel"
-      },
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
       "id": 157,
       "type": "UpscaleModelLoader",
       "pos": [
-        -3038.258028109375,
-        -193.71547101562493
+        -3042.1417652867426,
+        -89.00330053723334
       ],
       "size": {
         "0": 315,
@@ -1656,7 +1613,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 33,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1716,7 +1673,7 @@
         "collapsed": false,
         "pinned": false
       },
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -1773,7 +1730,7 @@
         "collapsed": false,
         "pinned": false
       },
-      "order": 42,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -1827,7 +1784,7 @@
         26
       ],
       "flags": {},
-      "order": 37,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1900,7 +1857,7 @@
         26
       ],
       "flags": {},
-      "order": 38,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1983,7 +1940,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 46,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -2102,7 +2059,7 @@
       "flags": {
         "pinned": false
       },
-      "order": 47,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -2218,7 +2175,7 @@
         "1": 518
       },
       "flags": {},
-      "order": 54,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -2357,18 +2314,78 @@
       "bgcolor": "#355"
     },
     {
+      "id": 148,
+      "type": "Reroute",
+      "pos": [
+        -2063.4279108354012,
+        -1523.829903655725
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 359
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "FLOAT",
+          "links": [
+            304
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 42,
+      "type": "Note",
+      "pos": [
+        -2280,
+        731
+      ],
+      "size": {
+        "0": 383.7281188964844,
+        "1": 255.68301391601562
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "title": "Note - Empty Latent Image",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "This node sets the image's resolution in Width and Height.\n\nNOTE: For SDXL, it is recommended to use trained values listed below:\n - 1024 x 1024\n - 1152 x 896\n - 896  x 1152\n - 1216 x 832\n - 832  x 1216\n - 1344 x 768\n - 768  x 1344\n - 1536 x 640\n - 640  x 1536\n\nand many more, explained here:\narxiv.org/pdf/2307.01952.pdf Page-17\n\nalso check:\nhttps://github.com/marhensa/sdxl-recommended-res-calc"
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
       "id": 153,
       "type": "ImageScaleBy",
       "pos": [
-        -3021.8580769375,
-        -423.1155442578128
+        -2920,
+        -460
       ],
       "size": {
         "0": 315,
         "1": 82
       },
       "flags": {},
-      "order": 32,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -2379,7 +2396,7 @@
         {
           "name": "scale_by",
           "type": "FLOAT",
-          "link": 346,
+          "link": 354,
           "widget": {
             "name": "scale_by",
             "config": [
@@ -2413,18 +2430,74 @@
       "bgcolor": "#3f5159"
     },
     {
+      "id": 164,
+      "type": "LatentUpscaleBy",
+      "pos": [
+        -2920,
+        -270
+      ],
+      "size": [
+        315,
+        82
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": null
+        },
+        {
+          "name": "scale_by",
+          "type": "FLOAT",
+          "link": 355,
+          "widget": {
+            "name": "scale_by",
+            "config": [
+              "FLOAT",
+              {
+                "default": 1.5,
+                "min": 0.01,
+                "max": 8,
+                "step": 0.01
+              }
+            ]
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LatentUpscaleBy"
+      },
+      "widgets_values": [
+        "nearest-exact",
+        1.5
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
       "id": 156,
       "type": "ImageScaleBy",
       "pos": [
-        -2792.258028109375,
-        10.284528984374987
+        -2790,
+        120
       ],
       "size": {
         "0": 315,
         "1": 82
       },
       "flags": {},
-      "order": 35,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -2435,7 +2508,7 @@
         {
           "name": "scale_by",
           "type": "FLOAT",
-          "link": 347,
+          "link": 356,
           "widget": {
             "name": "scale_by",
             "config": [
@@ -2469,24 +2542,67 @@
       "bgcolor": "#535"
     },
     {
+      "id": 155,
+      "type": "ImageUpscaleWithModel",
+      "pos": [
+        -2890,
+        20
+      ],
+      "size": {
+        "0": 241.79998779296875,
+        "1": 46
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "upscale_model",
+          "type": "UPSCALE_MODEL",
+          "link": 308
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            309
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageUpscaleWithModel"
+      },
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
       "id": 151,
       "type": "EmptyLatentImage",
       "pos": [
-        -3440.258028109375,
-        -62.715471015625
+        -3460,
+        -370
       ],
       "size": {
         "0": 225.30343627929688,
         "1": 96.62141418457031
       },
       "flags": {},
-      "order": 31,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
           "name": "width",
           "type": "INT",
-          "link": 344,
+          "link": 352,
           "widget": {
             "name": "width",
             "config": [
@@ -2503,7 +2619,7 @@
         {
           "name": "height",
           "type": "INT",
-          "link": 345,
+          "link": 353,
           "widget": {
             "name": "height",
             "config": [
@@ -2538,70 +2654,34 @@
       "bgcolor": "#000"
     },
     {
-      "id": 148,
-      "type": "Reroute",
-      "pos": [
-        -2063.4279108354012,
-        -1523.829903655725
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 350
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "FLOAT",
-          "links": [
-            304
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
-      "id": 163,
+      "id": 166,
       "type": "RecommendedResCalc",
       "pos": [
-        -2551,
-        460
+        -2490,
+        450
       ],
       "size": {
-        "0": 287.20001220703125,
-        "1": 142
+        "0": 315,
+        "1": 162
       },
       "flags": {},
-      "order": 21,
+      "order": 23,
       "mode": 0,
       "outputs": [
         {
-          "name": "recom width",
+          "name": "recomm width",
           "type": "INT",
           "links": [
-            348
+            357
           ],
           "shape": 3,
           "slot_index": 0
         },
         {
-          "name": "recom height",
+          "name": "recomm height",
           "type": "INT",
           "links": [
-            349
+            358
           ],
           "shape": 3,
           "slot_index": 1
@@ -2609,18 +2689,23 @@
         {
           "name": "upscale factor",
           "type": "FLOAT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
+          "links": null,
+          "shape": 3
         },
         {
-          "name": "reverse upscale (for 4x-upscaler)",
+          "name": "reverse upscale for 4x",
           "type": "FLOAT",
           "links": [
-            350
+            359
           ],
           "shape": 3,
           "slot_index": 3
+        },
+        {
+          "name": "reverse upscale for 2x",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
         }
       ],
       "properties": {
@@ -2634,58 +2719,34 @@
       "bgcolor": "#353"
     },
     {
-      "id": 42,
-      "type": "Note",
+      "id": 165,
+      "type": "RecommendedResCalc",
       "pos": [
-        -2280,
-        731
+        -3860,
+        -160
       ],
       "size": {
-        "0": 383.7281188964844,
-        "1": 255.68301391601562
+        "0": 315,
+        "1": 162
       },
       "flags": {},
       "order": 22,
       "mode": 0,
-      "title": "Note - Empty Latent Image",
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "This node sets the image's resolution in Width and Height.\n\nNOTE: For SDXL, it is recommended to use trained values listed below:\n - 1024 x 1024\n - 1152 x 896\n - 896  x 1152\n - 1216 x 832\n - 832  x 1216\n - 1344 x 768\n - 768  x 1344\n - 1536 x 640\n - 640  x 1536\n\nand many more, explained here:\narxiv.org/pdf/2307.01952.pdf Page-17\n\nalso check:\nhttps://github.com/marhensa/sdxl-recommended-res-calc"
-      ],
-      "color": "#323",
-      "bgcolor": "#535"
-    },
-    {
-      "id": 162,
-      "type": "RecommendedResCalc",
-      "pos": [
-        -3824,
-        -272
-      ],
-      "size": {
-        "0": 287.20001220703125,
-        "1": 142
-      },
-      "flags": {},
-      "order": 23,
-      "mode": 0,
       "outputs": [
         {
-          "name": "recom width",
+          "name": "recomm width",
           "type": "INT",
           "links": [
-            344
+            352
           ],
           "shape": 3,
           "slot_index": 0
         },
         {
-          "name": "recom height",
+          "name": "recomm height",
           "type": "INT",
           "links": [
-            345
+            353
           ],
           "shape": 3,
           "slot_index": 1
@@ -2694,19 +2755,26 @@
           "name": "upscale factor",
           "type": "FLOAT",
           "links": [
-            346
+            354,
+            355
           ],
           "shape": 3,
           "slot_index": 2
         },
         {
-          "name": "reverse upscale (for 4x-upscaler)",
+          "name": "reverse upscale for 4x",
           "type": "FLOAT",
           "links": [
-            347
+            356
           ],
           "shape": 3,
           "slot_index": 3
+        },
+        {
+          "name": "reverse upscale for 2x",
+          "type": "FLOAT",
+          "links": null,
+          "shape": 3
         }
       ],
       "properties": {
@@ -3194,56 +3262,64 @@
       "INT"
     ],
     [
-      344,
-      162,
+      352,
+      165,
       0,
       151,
       0,
       "INT"
     ],
     [
-      345,
-      162,
+      353,
+      165,
       1,
       151,
       1,
       "INT"
     ],
     [
-      346,
-      162,
+      354,
+      165,
       2,
       153,
       1,
       "FLOAT"
     ],
     [
-      347,
-      162,
+      355,
+      165,
+      2,
+      164,
+      1,
+      "FLOAT"
+    ],
+    [
+      356,
+      165,
       3,
       156,
       1,
       "FLOAT"
     ],
     [
-      348,
-      163,
+      357,
+      166,
       0,
       5,
       0,
       "INT"
     ],
     [
-      349,
-      163,
+      358,
+      166,
       1,
       5,
       1,
       "INT"
     ],
     [
-      350,
-      163,
+      359,
+      166,
       3,
       148,
       0,
@@ -3274,8 +3350,8 @@
     {
       "title": "Text Prompts",
       "bounding": [
-        -2021,
-        -272,
+        -1975,
+        -268,
         350,
         477
       ],
@@ -3394,8 +3470,8 @@
     {
       "title": "Recommended SDXL Input Resolution",
       "bounding": [
-        -3854,
-        -380,
+        -3869,
+        -441,
         773,
         455
       ],
@@ -3406,28 +3482,28 @@
       "bounding": [
         -3052,
         -535,
-        543,
-        265
+        604,
+        171
       ],
       "color": "#3f789e"
     },
     {
       "title": "To use in Upscale by 4x Models",
       "bounding": [
-        -3052,
-        -258,
-        598,
-        372
+        -3055,
+        -153,
+        606,
+        363
       ],
       "color": "#a1309b"
     },
     {
       "title": "Recommended SDXL - USE CASE SCENARIO",
       "bounding": [
-        -3863,
+        -3876,
         -580,
-        1419,
-        703
+        1434,
+        798
       ],
       "color": "#88A"
     },
@@ -3438,6 +3514,16 @@
         299,
         1029,
         375
+      ],
+      "color": "#3f789e"
+    },
+    {
+      "title": "To use in normal Upscaler (Latent)",
+      "bounding": [
+        -3054,
+        -352,
+        604,
+        187
       ],
       "color": "#3f789e"
     }
