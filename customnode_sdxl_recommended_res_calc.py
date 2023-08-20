@@ -1,14 +1,14 @@
-    """
+"""
     
-    This is the ComfyUI custom node, for standalone python script it's on other file: sdxl-recommended-res-calc.py
+This is the ComfyUI custom node, for standalone python script it's on other file: sdxl-recommended-res-calc.py
     
-    A custom node for ComfyUI to automatically set the recommended initial latent size 
-    for SDXL image generation and its Upscale Factor 
-    based on the desired Final Resolution output 
+A custom node for ComfyUI to automatically set the recommended initial latent size 
+for SDXL image generation and its Upscale Factor 
+based on the desired Final Resolution output 
     
-    Marhensa Aditya Hadi (2023)
+Marhensa Aditya Hadi (2023)
     
-    """
+"""
 
 # As Per CapsAdmin (https://github.com/CapsAdmin) suggest, it could be a ComfyUI Custom Node if modified.
 # https://github.com/marhensa/sdxl-recommended-res-calc/issues/1
