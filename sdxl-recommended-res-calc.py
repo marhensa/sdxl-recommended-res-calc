@@ -1,16 +1,16 @@
 import os
 
-    """
+"""
     
-    This is the standalone python script, for ComfyUI custom node it's on other file: customnode_sdxl_recommended_res_calc.py
+This is the standalone python script, for ComfyUI custom node it's on other file: customnode_sdxl_recommended_res_calc.py
     
-    A simple tool to calculate the recommended initial latent size 
-    for SDXL image generation and its Upscale Factor 
-    based on the desired Final Resolution output 
+A simple tool to calculate the recommended initial latent size 
+for SDXL image generation and its Upscale Factor 
+based on the desired Final Resolution output 
     
-    Marhensa Aditya Hadi (2023)
+Marhensa Aditya Hadi (2023)
     
-    """
+"""
 
 def calculate_aspect_ratios(desiredXSIZE, desiredYSIZE):
     # Accepted aspect ratios and corresponding XSIZE, YSIZE, and NUMRATIO
