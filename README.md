@@ -3,19 +3,24 @@ A simple script (_**also a ComfyUI custom node thanks to [CapsAdmin](https://git
 
 According to [SDXL paper references](https://arxiv.org/pdf/2307.01952.pdf) (Page 17), it's advised to avoid arbitrary resolutions and stick to those initial resolution, as SDXL was trained using those specific resolution.
 
-tl;dr : Basicaly, you are typing your desired FINAL target resolution, it will gives you :
+TL;DR : Basicaly, you are typing your desired target FINAL resolution, it will gives you :
 1. what resolution you should use according to SDXL suggestion as initial input resolution
 2. how much upscale it needs to get that final resolution (both normal upscaler or upscaler value that have been 4x scaled by upscale model)
-
-Thanks to [CapsAdmin](https://github.com/CapsAdmin) pointed [here](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1), now this Python script could be used as standalone and also a custom node in ComfyUI.
 
 **Usage Showcase In ComfyUI**
 
 ![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/91ce3c67-f5af-4978-b27f-ebd14260ce3e)
 
-**To install it as ComfyUI custom node installation** :
+**To install it as ComfyUI custom node using ComfyUI Manager (Easy Way)**
+1. Make sure you already have [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) (it's like a extension manager)
+2. Search for: Recommended Resolution Calculator
+3. Install it
+4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section.
+5. Usage: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION, Upscale Factor OR Reverse Upscale Factor is used as example above
+
+**To install it as ComfyUI custom node using manual Git Clone Operation** :
 1. Go to this folder /ComfyUI/custom_nodes/
-2. Open command prompt to that folder, type
+2. Open command prompt to that folder, type this line below:
 3. git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section.
 5. Usage: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION, Upscale Factor OR Reverse Upscale Factor is used as example above
