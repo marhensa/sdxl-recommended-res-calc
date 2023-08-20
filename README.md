@@ -1,7 +1,7 @@
 # sdxl-recommended-res-calc
 Note: It's also available to install it via ComfyUI Manager
 
-A simple script (_**also a Custom Node in ComfyUI thanks to [CapsAdmin](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1)**_), to calculate and automatically set the recommended initial latent size for SDXL image generation and its Upscale Factor based on the desired Final Resolution output.
+A simple script (_**also a Custom Node in ComfyUI [thanks to](https://www.reddit.com/r/StableDiffusion/comments/15iou69/comment/juvgrqn/?utm_source=reddit&utm_medium=web2x&context=3) [CapsAdmin](https://github.com/marhensa/sdxl-recommended-res-calc/issues/1)**_), to calculate and automatically set the recommended initial latent size for SDXL image generation and its Upscale Factor based on the desired Final Resolution output.
 
 According to [SDXL paper references](https://arxiv.org/pdf/2307.01952.pdf) (Page 17), it's advised to avoid arbitrary resolutions and stick to those initial resolution, as SDXL was trained using those specific resolution.
 
@@ -19,14 +19,14 @@ Example Workflow of usage in ComfyUI : [JSON](https://github.com/marhensa/sdxl-r
 1. Make sure you already have [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) (it's like an extension manager)
 2. Search for: Recommended Resolution Calculator
 3. Install it
-4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section.
+4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section
 5. Usage: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION, Upscale Factor OR Reverse Upscale Factor is used as example above
 
 **To install it as ComfyUI custom node using manual Git Clone Operation** :
 1. Go to this folder /ComfyUI/custom_nodes/
 2. Open command prompt to that folder, type this line below:
 3. git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
-4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section.
+4. Restart ComfyUI, now this custom node "Recommended Resolution Calculator" is located in "utils" node section
 5. Usage: DesiredXSIZE and DesiredYSIZE is your TARGET FINAL RESOLUTION, Upscale Factor OR Reverse Upscale Factor is used as example above
 
 As standalone (Not Using ComfyUI):
