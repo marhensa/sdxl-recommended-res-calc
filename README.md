@@ -13,7 +13,7 @@ TL;DR : Basicaly, you are typing your desired target FINAL resolution, it will g
 
 ![image](https://github.com/marhensa/sdxl-recommended-res-calc/assets/816600/91ce3c67-f5af-4978-b27f-ebd14260ce3e)
 
-Example Workflow of usage in ComfyUI : [JSON](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.json) / [PNG](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.png)
+Example Workflow of usage in ComfyUI : [JSON](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-sdxl-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.json) / [PNG](https://github.com/marhensa/sdxl-recommended-res-calc/blob/main/_use-case-sdxl-example-comfyui-nodes/sdxl-recommended-res-calc_upscale-case.png)
 
 **To install it as ComfyUI custom node using ComfyUI Manager (Easy Way)**
 1. Make sure you already have [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager) (it's like an extension manager)
