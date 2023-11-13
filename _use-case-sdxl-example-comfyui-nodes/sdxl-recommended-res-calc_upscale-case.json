@@ -1,6 +1,6 @@
 {
   "last_node_id": 58,
-  "last_link_id": 156,
+  "last_link_id": 157,
   "nodes": [
     {
       "id": 24,
@@ -131,7 +131,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 34,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -438,7 +438,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 36,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -706,7 +706,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 40,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -930,7 +930,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -969,7 +969,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 41,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -982,7 +982,9 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [],
+          "links": [
+            157
+          ],
           "slot_index": 0
         }
       ],
@@ -1043,7 +1045,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1081,13 +1083,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 156
+          "link": 157
         }
       ],
       "outputs": [
@@ -1134,9 +1136,7 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [
-            156
-          ],
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -1408,7 +1408,7 @@
         "1": 521.8184814453125
       },
       "flags": {},
-      "order": 39,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1597,7 +1597,7 @@
         "1": 858.6693115234375
       },
       "flags": {},
-      "order": 35,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2186,8 +2186,8 @@
       "*"
     ],
     [
-      156,
-      31,
+      157,
+      28,
       0,
       29,
       0,
