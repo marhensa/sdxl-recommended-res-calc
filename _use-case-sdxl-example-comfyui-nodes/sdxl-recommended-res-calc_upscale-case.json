@@ -1,6 +1,6 @@
 {
   "last_node_id": 58,
-  "last_link_id": 157,
+  "last_link_id": 159,
   "nodes": [
     {
       "id": 24,
@@ -179,7 +179,7 @@
         26
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -349,7 +349,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -402,7 +402,7 @@
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -479,7 +479,7 @@
         26
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -516,7 +516,7 @@
         26
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -554,7 +554,7 @@
         26
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -590,7 +590,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 14,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -647,7 +647,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 16,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -936,7 +936,7 @@
         {
           "name": "",
           "type": "*",
-          "link": 155
+          "link": 159
         }
       ],
       "outputs": [
@@ -1059,7 +1059,7 @@
           "name": "LATENT",
           "type": "LATENT",
           "links": [
-            155
+            159
           ],
           "slot_index": 0
         }
@@ -1148,113 +1148,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 20,
-      "type": "LoraLoader",
-      "pos": [
-        91,
-        -372
-      ],
-      "size": {
-        "0": 482.14434814453125,
-        "1": 126
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 30
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 31
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            95
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            96
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "Tweak\\lcm-lora-sdxl_pytorch_lora_weights.safetensors",
-        1,
-        1
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
-      "id": 3,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        -451,
-        -313
-      ],
-      "size": {
-        "0": 363.3471374511719,
-        "1": 98
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            30
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            31
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "SDXL\\crystalClearXL_ccxl.safetensors"
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
       "id": 11,
       "type": "PrimitiveNode",
       "pos": [
@@ -1266,7 +1159,7 @@
         "1": 128.54669189453125
       },
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "outputs": [
         {
@@ -1301,7 +1194,7 @@
         "1": 207.44180297851562
       },
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "outputs": [
         {
@@ -1481,7 +1374,7 @@
         "1": 162
       },
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "outputs": [
         {
@@ -1549,7 +1442,7 @@
         "1": 107.06208038330078
       },
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "title": "Note - Upscale (Hires Fix)",
       "properties": {
@@ -1573,7 +1466,7 @@
         "1": 133.66436767578125
       },
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "title": "Note - Latent vs Model (for Hires Fix)",
       "properties": {
@@ -1711,7 +1604,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "outputs": [
         {
@@ -1732,6 +1625,113 @@
       ],
       "color": "#332922",
       "bgcolor": "#593930"
+    },
+    {
+      "id": 3,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -451,
+        -313
+      ],
+      "size": {
+        "0": 363.3471374511719,
+        "1": 98
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            30
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            31
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "SDXL\\SSD-1B.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 20,
+      "type": "LoraLoader",
+      "pos": [
+        91,
+        -372
+      ],
+      "size": {
+        "0": 482.14434814453125,
+        "1": 126
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 30
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            95
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            96
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "LCM\\SDXL-SSD1B\\pytorch_lora_weights.safetensors",
+        1,
+        1
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
     },
     {
       "id": 16,
@@ -2178,18 +2178,18 @@
       "CLIP"
     ],
     [
-      155,
-      53,
-      0,
-      54,
-      0,
-      "*"
-    ],
-    [
       157,
       28,
       0,
       29,
+      0,
+      "*"
+    ],
+    [
+      159,
+      53,
+      0,
+      54,
       0,
       "*"
     ]
