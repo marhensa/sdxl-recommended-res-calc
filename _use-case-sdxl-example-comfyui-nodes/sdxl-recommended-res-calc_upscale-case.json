@@ -1,6 +1,6 @@
 {
-  "last_node_id": 54,
-  "last_link_id": 146,
+  "last_node_id": 58,
+  "last_link_id": 156,
   "nodes": [
     {
       "id": 24,
@@ -14,7 +14,7 @@
         26
       ],
       "flags": {},
-      "order": 22,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -51,7 +51,7 @@
         26
       ],
       "flags": {},
-      "order": 21,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -88,7 +88,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 29,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -131,7 +131,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 31,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -179,7 +179,7 @@
         26
       ],
       "flags": {},
-      "order": 15,
+      "order": 17,
       "mode": 0,
       "inputs": [
         {
@@ -204,43 +204,6 @@
       }
     },
     {
-      "id": 25,
-      "type": "Reroute",
-      "pos": [
-        650,
-        50
-      ],
-      "size": [
-        75,
-        26
-      ],
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "",
-          "type": "*",
-          "link": 99
-        }
-      ],
-      "outputs": [
-        {
-          "name": "",
-          "type": "CLIP",
-          "links": [
-            50,
-            51
-          ],
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "showOutputText": false,
-        "horizontal": false
-      }
-    },
-    {
       "id": 26,
       "type": "Reroute",
       "pos": [
@@ -252,7 +215,7 @@
         26
       ],
       "flags": {},
-      "order": 17,
+      "order": 19,
       "mode": 0,
       "inputs": [
         {
@@ -320,7 +283,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 26,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -386,7 +349,7 @@
         "1": 78
       },
       "flags": {},
-      "order": 9,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -439,7 +402,7 @@
         26
       ],
       "flags": {},
-      "order": 11,
+      "order": 13,
       "mode": 0,
       "inputs": [
         {
@@ -475,7 +438,7 @@
         "1": 46
       },
       "flags": {},
-      "order": 32,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -516,7 +479,7 @@
         26
       ],
       "flags": {},
-      "order": 16,
+      "order": 18,
       "mode": 0,
       "inputs": [
         {
@@ -553,7 +516,7 @@
         26
       ],
       "flags": {},
-      "order": 13,
+      "order": 15,
       "mode": 0,
       "inputs": [
         {
@@ -580,41 +543,6 @@
       }
     },
     {
-      "id": 11,
-      "type": "PrimitiveNode",
-      "pos": [
-        221,
-        424
-      ],
-      "size": {
-        "0": 357.31585693359375,
-        "1": 128.54669189453125
-      },
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            120
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "title": "Negative Prompt",
-      "properties": {},
-      "widgets_values": [
-        "(semi-realistic, cgi, 2.5d, 3d:1.3), watermark, signature, (text:1.3), frame, mirror, anthropomorphic, humanoid, ugly, deformed, noisy, bokeh, blurry, distorted, grainy, drawing, painting, crayon, sketch, graphite, impressionist, soft, deformed"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
       "id": 38,
       "type": "Reroute",
       "pos": [
@@ -626,7 +554,7 @@
         26
       ],
       "flags": {},
-      "order": 10,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -662,7 +590,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 12,
+      "order": 14,
       "mode": 0,
       "inputs": [
         {
@@ -708,63 +636,6 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 20,
-      "type": "LoraLoader",
-      "pos": [
-        91,
-        -372
-      ],
-      "size": {
-        "0": 482.14434814453125,
-        "1": 126
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 30
-        },
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 31
-        }
-      ],
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            95
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            96
-          ],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoraLoader"
-      },
-      "widgets_values": [
-        "SDXL\\sd_xl_offset_example-lora_1.0.safetensors",
-        0,
-        0
-      ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
-    },
-    {
       "id": 42,
       "type": "LoraLoader",
       "pos": [
@@ -776,7 +647,7 @@
         "1": 126
       },
       "flags": {},
-      "order": 14,
+      "order": 16,
       "mode": 0,
       "inputs": [
         {
@@ -835,7 +706,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 36,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -880,7 +751,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 25,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -911,56 +782,6 @@
       }
     },
     {
-      "id": 3,
-      "type": "CheckpointLoaderSimple",
-      "pos": [
-        -451,
-        -313
-      ],
-      "size": {
-        "0": 363.3471374511719,
-        "1": 98
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "MODEL",
-          "type": "MODEL",
-          "links": [
-            30
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "CLIP",
-          "type": "CLIP",
-          "links": [
-            31
-          ],
-          "shape": 3,
-          "slot_index": 1
-        },
-        {
-          "name": "VAE",
-          "type": "VAE",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CheckpointLoaderSimple"
-      },
-      "widgets_values": [
-        "SDXL\\crystalClearXL_ccxl.safetensors"
-      ],
-      "color": "#233",
-      "bgcolor": "#355"
-    },
-    {
       "id": 4,
       "type": "CLIPTextEncode",
       "pos": [
@@ -972,7 +793,7 @@
         "1": 54
       },
       "flags": {},
-      "order": 19,
+      "order": 21,
       "mode": 0,
       "inputs": [
         {
@@ -1004,91 +825,7 @@
         "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        "cinematic photo, breathtaking photograph of (cute cybernetic cat, in outdoor park) . award-winning, professional, highly detailed . 35mm photograph, film, sharp focus, professional, 4k, highly detailed"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 5,
-      "type": "CLIPTextEncode",
-      "pos": [
-        825,
-        136
-      ],
-      "size": {
-        "0": 210,
-        "1": 54
-      },
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "clip",
-          "type": "CLIP",
-          "link": 51
-        },
-        {
-          "name": "text",
-          "type": "STRING",
-          "link": 120,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "CONDITIONING",
-          "type": "CONDITIONING",
-          "links": [
-            46
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CLIPTextEncode"
-      },
-      "widgets_values": [
-        "(semi-realistic, cgi, 2.5d, 3d:1.3), watermark, signature, (text:1.3), frame, mirror, anthropomorphic, humanoid, ugly, deformed, noisy, bokeh, blurry, distorted, grainy, drawing, painting, crayon, sketch, graphite, impressionist, soft, deformed"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 10,
-      "type": "PrimitiveNode",
-      "pos": [
-        221,
-        174
-      ],
-      "size": {
-        "0": 358.2323913574219,
-        "1": 207.44180297851562
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            119
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "text"
-          }
-        }
-      ],
-      "title": "Positive Prompt",
-      "properties": {},
-      "widgets_values": [
-        "cinematic photo, breathtaking photograph of (cute cybernetic cat, in outdoor park) . award-winning, professional, highly detailed . 35mm photograph, film, sharp focus, professional, 4k, highly detailed"
+        "(highest quality), masterpiece, intricate, high detail, professional photo, 8k uhd, sharp focus, (realistic photograph:1.2), (medieval knight cat wears shiny armor, background is castle:1.2), bright environment"
       ],
       "color": "#232",
       "bgcolor": "#353"
@@ -1105,7 +842,7 @@
         26
       ],
       "flags": {},
-      "order": 24,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -1143,7 +880,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 27,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1193,13 +930,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 34,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 146
+          "link": 155
         }
       ],
       "outputs": [
@@ -1232,7 +969,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 37,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -1245,9 +982,7 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [
-            145
-          ],
+          "links": [],
           "slot_index": 0
         }
       ],
@@ -1272,7 +1007,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 30,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1308,7 +1043,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 33,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1322,7 +1057,7 @@
           "name": "LATENT",
           "type": "LATENT",
           "links": [
-            146
+            155
           ],
           "slot_index": 0
         }
@@ -1346,13 +1081,13 @@
       "flags": {
         "pinned": true
       },
-      "order": 38,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
           "name": "",
           "type": "*",
-          "link": 145
+          "link": 156
         }
       ],
       "outputs": [
@@ -1386,7 +1121,7 @@
       "flags": {
         "pinned": true
       },
-      "order": 28,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1399,7 +1134,9 @@
         {
           "name": "IMAGE",
           "type": "IMAGE",
-          "links": [],
+          "links": [
+            156
+          ],
           "slot_index": 0
         }
       ],
@@ -1411,39 +1148,333 @@
       "bgcolor": "#533"
     },
     {
-      "id": 19,
-      "type": "SaveImage",
+      "id": 20,
+      "type": "LoraLoader",
       "pos": [
-        2409,
-        49
+        91,
+        -372
       ],
       "size": {
-        "0": 863.1112670898438,
-        "1": 858.6693115234375
+        "0": 482.14434814453125,
+        "1": 126
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 30
+        },
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 31
+        }
+      ],
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            95
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            96
+          ],
+          "shape": 3,
+          "slot_index": 1
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoraLoader"
+      },
+      "widgets_values": [
+        "Tweak\\lcm-lora-sdxl_pytorch_lora_weights.safetensors",
+        1,
+        1
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 3,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        -451,
+        -313
+      ],
+      "size": {
+        "0": 363.3471374511719,
+        "1": 98
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            30
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            31
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "SDXL\\crystalClearXL_ccxl.safetensors"
+      ],
+      "color": "#233",
+      "bgcolor": "#355"
+    },
+    {
+      "id": 11,
+      "type": "PrimitiveNode",
+      "pos": [
+        222,
+        467
+      ],
+      "size": {
+        "0": 357.31585693359375,
+        "1": 128.54669189453125
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            120
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "title": "Negative Prompt",
+      "properties": {},
+      "widgets_values": [
+        "deformed iris, deformed pupils, (semi-realistic, cgi, 2.5d, 3d, sketch, cartoon, drawing, anime:1.2), frame, mirror, polaroid, dark environment"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 10,
+      "type": "PrimitiveNode",
+      "pos": [
+        224,
+        217
+      ],
+      "size": {
+        "0": 358.2323913574219,
+        "1": 207.44180297851562
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            119
+          ],
+          "slot_index": 0,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "title": "Positive Prompt",
+      "properties": {},
+      "widgets_values": [
+        "(highest quality), masterpiece, intricate, high detail, professional photo, 8k uhd, sharp focus, (realistic photograph:1.2), (medieval knight cat wears shiny armor, background is castle:1.2), bright environment"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 1,
+      "type": "KSampler",
+      "pos": [
+        1480,
+        -40
+      ],
+      "size": {
+        "0": 375.75421142578125,
+        "1": 519.6908569335938
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 53,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 44
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 47
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 16,
+          "slot_index": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 25,
+          "widget": {
+            "name": "seed"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            103
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        45371764628188,
+        "randomize",
+        8,
+        1.6,
+        "lcm",
+        "normal",
+        1
+      ],
+      "color": "#223",
+      "bgcolor": "#335"
+    },
+    {
+      "id": 15,
+      "type": "KSampler",
+      "pos": [
+        1970,
+        -40
+      ],
+      "size": {
+        "0": 375.3682861328125,
+        "1": 521.8184814453125
       },
       "flags": {},
       "order": 39,
       "mode": 0,
       "inputs": [
         {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 61
+          "name": "model",
+          "type": "MODEL",
+          "link": 54,
+          "slot_index": 0
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 45
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 48
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 131,
+          "slot_index": 3
+        },
+        {
+          "name": "seed",
+          "type": "INT",
+          "link": 26,
+          "widget": {
+            "name": "seed"
+          }
         }
       ],
-      "properties": {},
-      "widgets_values": [
-        "%date:yyyy-MM-dd%/ComfyUI_%date:yyyyMMdd%_%date:hhmmss%"
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            27
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
       ],
-      "color": "#222",
-      "bgcolor": "#000"
+      "title": "KSampler (Upscale)",
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        45371764628188,
+        "randomize",
+        8,
+        1.6,
+        "lcm",
+        "normal",
+        0.35000000000000003
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
     },
     {
       "id": 48,
       "type": "RecommendedResCalc",
       "pos": [
-        816,
-        378
+        852,
+        301
       ],
       "size": {
         "0": 277.20001220703125,
@@ -1500,156 +1531,173 @@
         "Node name for S&R": "RecommendedResCalc"
       },
       "widgets_values": [
-        1920,
-        1080
+        1600,
+        2000
       ],
       "color": "#222",
       "bgcolor": "#000"
     },
     {
-      "id": 1,
-      "type": "KSampler",
+      "id": 58,
+      "type": "Note",
       "pos": [
-        1480,
-        -40
+        3280,
+        -185
       ],
       "size": {
-        "0": 375.75421142578125,
-        "1": 519.6908569335938
+        "0": 244.01617431640625,
+        "1": 107.06208038330078
       },
       "flags": {},
-      "order": 23,
+      "order": 6,
       "mode": 0,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 53,
-          "slot_index": 0
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 44
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 47
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 16,
-          "slot_index": 3
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 25,
-          "widget": {
-            "name": "seed"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "LATENT",
-          "type": "LATENT",
-          "links": [
-            103
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
+      "title": "Note - Upscale (Hires Fix)",
       "properties": {
-        "Node name for S&R": "KSampler"
+        "text": ""
       },
       "widgets_values": [
-        657276207249594,
-        "randomize",
-        25,
-        7.5,
-        "euler",
-        "normal",
-        1
+        "Green/Top: Upscale ON\nRed/Bottom: Upscale OFF\n\nUpscale OFF meaning it won't get the desired resolution, only using the recommended base SDXL resolution capabilities."
       ],
-      "color": "#223",
-      "bgcolor": "#335"
+      "color": "#233",
+      "bgcolor": "#355"
     },
     {
-      "id": 15,
-      "type": "KSampler",
+      "id": 57,
+      "type": "Note",
       "pos": [
-        1970,
-        -40
+        3208,
+        -495
       ],
       "size": {
-        "0": 375.3682861328125,
-        "1": 521.8184814453125
+        "0": 319.20001220703125,
+        "1": 133.66436767578125
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "title": "Note - Latent vs Model (for Hires Fix)",
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Top: Latent (Faster but grainy)\n\nvs\n\nBottom: 4x Upscale Model (Slower but better)\nSlower because, it converts latent to image, then upscale it 4x, then resize it down with reverse 4x calculator, then convert it again to latent to be processed. It's Sytan's workflow implementation."
+      ],
+      "color": "#323",
+      "bgcolor": "#535"
+    },
+    {
+      "id": 19,
+      "type": "SaveImage",
+      "pos": [
+        2370,
+        79
+      ],
+      "size": {
+        "0": 863.1112670898438,
+        "1": 858.6693115234375
       },
       "flags": {},
       "order": 35,
       "mode": 0,
       "inputs": [
         {
-          "name": "model",
-          "type": "MODEL",
-          "link": 54,
-          "slot_index": 0
+          "name": "images",
+          "type": "IMAGE",
+          "link": 61
+        }
+      ],
+      "properties": {},
+      "widgets_values": [
+        "%date:yyyy-MM-dd%/ComfyUI_%date:yyyyMMdd%_%date:hhmmss%"
+      ],
+      "color": "#222",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 5,
+      "type": "CLIPTextEncode",
+      "pos": [
+        825,
+        136
+      ],
+      "size": {
+        "0": 210,
+        "1": 54
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 153
         },
         {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 45
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 48
-        },
-        {
-          "name": "latent_image",
-          "type": "LATENT",
-          "link": 131,
-          "slot_index": 3
-        },
-        {
-          "name": "seed",
-          "type": "INT",
-          "link": 26,
+          "name": "text",
+          "type": "STRING",
+          "link": 120,
           "widget": {
-            "name": "seed"
+            "name": "text"
           }
         }
       ],
       "outputs": [
         {
-          "name": "LATENT",
-          "type": "LATENT",
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
           "links": [
-            27
+            46
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
-      "title": "KSampler (Upscale)",
       "properties": {
-        "Node name for S&R": "KSampler"
+        "Node name for S&R": "CLIPTextEncode"
       },
       "widgets_values": [
-        657276207249594,
-        "randomize",
-        10,
-        7.5,
-        "ddim",
-        "ddim_uniform",
-        0.35000000000000003
+        "deformed iris, deformed pupils, (semi-realistic, cgi, 2.5d, 3d, sketch, cartoon, drawing, anime:1.2), frame, mirror, polaroid, dark environment"
       ],
-      "color": "#323",
-      "bgcolor": "#535"
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 25,
+      "type": "Reroute",
+      "pos": [
+        650,
+        50
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 99
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "CLIP",
+          "links": [
+            50,
+            153
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
     },
     {
       "id": 18,
@@ -1663,7 +1711,7 @@
         "1": 58
       },
       "flags": {},
-      "order": 6,
+      "order": 8,
       "mode": 0,
       "outputs": [
         {
@@ -1697,7 +1745,7 @@
         "1": 82
       },
       "flags": {},
-      "order": 7,
+      "order": 9,
       "mode": 0,
       "outputs": [
         {
@@ -1715,7 +1763,7 @@
       ],
       "properties": {},
       "widgets_values": [
-        657276207249594,
+        45371764628188,
         "increment"
       ]
     }
@@ -1822,14 +1870,6 @@
       25,
       0,
       4,
-      0,
-      "CLIP"
-    ],
-    [
-      51,
-      25,
-      0,
-      5,
       0,
       "CLIP"
     ],
@@ -2130,18 +2170,26 @@
       "FLOAT"
     ],
     [
-      145,
-      28,
+      153,
+      25,
       0,
-      29,
+      5,
+      0,
+      "CLIP"
+    ],
+    [
+      155,
+      53,
+      0,
+      54,
       0,
       "*"
     ],
     [
-      146,
-      53,
+      156,
+      31,
       0,
-      54,
+      29,
       0,
       "*"
     ]
