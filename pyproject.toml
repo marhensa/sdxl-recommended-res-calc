@@ -9,6 +9,6 @@ Repository = "https://github.com/marhensa/sdxl-recommended-res-calc"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "marhensa"
 DisplayName = "sdxl-recommended-res-calc"
 Icon = ""
